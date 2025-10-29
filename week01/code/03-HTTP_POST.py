@@ -32,6 +32,10 @@ conn.request("POST", "/v1/chat/completions", payload, headers)
 res = conn.getresponse()
 data = res.read()
 
+# 打印response
+print("response:")
+print(data)
+
 # 打印原始响应
 print("原始响应:")
 print(data.decode("utf-8"))
