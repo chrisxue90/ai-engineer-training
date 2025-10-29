@@ -3,9 +3,9 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
-api_key = os.getenv('OPENAI_API_KEY')
-base_url = os.getenv('OPENAI_API_BASE')
-print(f"-- debug -- openai api key is {api_key[0:10]}******")
+api_key = os.getenv('DEEKSEEK_API_KEY')
+base_url = os.getenv('DEEKSEEK_API_BASE')
+print(f"-- debug -- deepseek api key is {api_key[0:10]}******")
 
 client = OpenAI(
     base_url=base_url,
@@ -14,7 +14,7 @@ client = OpenAI(
 
 
 response = client.chat.completions.create(
-    model="o3-mini",
+    model="deepseek-chat",
     messages=[
         {"role": "user", "content": "Hello world!"}
     ]
