@@ -10,23 +10,29 @@ from langchain_core.embeddings import Embeddings
 
 # 加载环境变量
 load_dotenv()
-api_key = os.getenv('OPENAI_API_KEY')
-base_url = os.getenv('OPENAI_API_BASE')
+api_key = os.getenv('DOUBAO_API_KEY')
+base_url = os.getenv('DOUBAO_API_BASE')
+embeddings_base_url = os.getenv('DOUBAO_EMBEDDINGS_API_BASE')
 
-# 初始化 OpenAI 客户端
+# 初始化 Doubao 客户端
 client = OpenAI(
+    base_url=base_url,
+    api_key=api_key
+)
+
+embeddingsclient = OpenAI(
     base_url=base_url,
     api_key=api_key
 )
 
 
 # =============================================================================
-# OpenAI Embeddings 实现
+# Doubao Embeddings 实现
 # =============================================================================
-class OpenAIEmbeddings(Embeddings):
-    def __init__(self, model: str = "text-embedding-3-small"):
+class DoubaoEmbeddings(Embeddings):
+    def __init__(self, model: str = "doubao-embedding-text-240715"):
         self.model = model
-        self.client = client
+        self.client = embeddingsclient
         
     def embed_documents(self, texts: List[str]) -> List[List[float]]:
         response = self.client.embeddings.create(model=self.model, input=texts)
@@ -64,7 +70,7 @@ class GenerationState(TypedDict):
 # =============================================================================
 # 模型初始化
 # =============================================================================
-embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+embeddings = DoubaoEmbeddings(model="doubao-embedding-text-240715")
 
 
 # =============================================================================
@@ -124,7 +130,7 @@ def generate_summary(chunk: str) -> str:
     target_length = int(chunk_length * 0.3)  # 目标长度为原文的30%
     
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="doubao-seed-1-6-lite-251015",
         messages=[
             {
                 "role": "system", 
@@ -144,7 +150,7 @@ def generate_summary(chunk: str) -> str:
     # 如果摘要仍然过长，进行二次压缩
     if len(summary) > target_length:
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="doubao-seed-1-6-lite-251015",
             messages=[
                 {
                     "role": "system", 
@@ -162,9 +168,9 @@ def generate_summary(chunk: str) -> str:
 def build_planning_tree(summaries: List[str]) -> Dict:
     combined = "\n\n".join(f"Block {i+1}: {s}" for i, s in enumerate(summaries))
     prompt = f"""
-    请根据以下文本块摘要，生成一份精简的综合报告结构大纲。
+    你是一名资深的文章精简师，请根据以下原文的文本块摘要，生成一份精简版的文章，要求表达原文核心的内容。
     目的：
-    - 分析摘要内容，生成逻辑清晰的文章结构
+    - 分析摘要内容，生成逻辑清晰的文章
     
     要求：
     - 总共只生成3-4个主要章节，每章不超过1个合并段落
@@ -177,16 +183,16 @@ def build_planning_tree(summaries: List[str]) -> Dict:
     
     请只输出JSON，格式如下（注意：subsections为空数组，所有内容合并到主章节）：
     {{
-      "title": "报告主标题",
+      "title": "文章结构主标题",
       "sections": [
-        {{"title": "发展现状与技术基础", "subsections": []}},
-        {{"title": "应用领域与实践案例", "subsections": []}},
-        {{"title": "挑战问题与未来趋势", "subsections": []}}
+        {{"title": "aaa", "subsections": []}},
+        {{"title": "bbb", "subsections": []}},
+        {{"title": "ccc", "subsections": []}}
       ]
     }}
     """
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="doubao-seed-1-6-lite-251015",
         messages=[{"role": "user", "content": prompt}],
         temperature=0
     )
@@ -235,7 +241,7 @@ def generate_section_content(title: str, context: str) -> str:
     5. 体现专业深度和分析价值
     """
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="doubao-seed-1-6-lite-251015",
         messages=[{"role": "user", "content": prompt}],
         temperature=0
     )
@@ -342,6 +348,10 @@ def planning_node(state: GenerationState) -> GenerationState:
     print("🤖 正在分析摘要并生成精简结构树...")
     planning_tree = build_planning_tree(state["summaries"])
     state["planning_tree"] = planning_tree
+
+
+    print('planning_tree:')
+    print(planning_tree)
     
     print("✅ 精简结构树生成完成")
     print(f"\n📖 精简文章大纲结构:")

@@ -4,10 +4,10 @@ from dotenv import load_dotenv
 
 # 加载环境变量
 load_dotenv()
-api_key = os.getenv('OPENAI_API_KEY')
-base_url = os.getenv('OPENAI_API_BASE')
+api_key = os.getenv('DOUBAO_API_KEY')
+base_url = os.getenv('DOUBAO_API_BASE')
 
-# 初始化 OpenAI 客户端
+# 初始化 DeepSeek 客户端
 client = OpenAI(
     base_url=base_url,
     api_key=api_key
@@ -15,7 +15,7 @@ client = OpenAI(
 
 def query(user_prompt):
     """
-    发送用户提示到 OpenAI API 并返回响应内容
+    发送用户提示到 DeepSeek API 并返回响应内容
     
     参数:
         user_prompt (str): 用户输入的提示内容
@@ -25,10 +25,11 @@ def query(user_prompt):
     """
     try:
         response = client.chat.completions.create(
-            model="o3-mini",
+            model="doubao-seed-1-6-lite-251015",
             messages=[
                 {"role": "user", "content": user_prompt}
-            ]
+            ],
+            reasoning_effort="medium"
         )
         return response.choices[0].message.content
     except Exception as e:
