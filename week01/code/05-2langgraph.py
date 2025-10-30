@@ -12,7 +12,6 @@ from langchain_core.embeddings import Embeddings
 load_dotenv()
 api_key = os.getenv('DOUBAO_API_KEY')
 base_url = os.getenv('DOUBAO_API_BASE')
-embeddings_base_url = os.getenv('DOUBAO_EMBEDDINGS_API_BASE')
 
 # 初始化 Doubao 客户端
 client = OpenAI(
@@ -20,19 +19,13 @@ client = OpenAI(
     api_key=api_key
 )
 
-embeddingsclient = OpenAI(
-    base_url=base_url,
-    api_key=api_key
-)
-
-
 # =============================================================================
 # Doubao Embeddings 实现
 # =============================================================================
 class DoubaoEmbeddings(Embeddings):
     def __init__(self, model: str = "doubao-embedding-text-240715"):
         self.model = model
-        self.client = embeddingsclient
+        self.client = client
         
     def embed_documents(self, texts: List[str]) -> List[List[float]]:
         response = self.client.embeddings.create(model=self.model, input=texts)
