@@ -5,6 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-	"python-dotenv",
-	# add your dependencies here and run `uv sync` to install them
+    "llama-index>=0.14.8",
+    "llama-index-llms-openai-like>=0.5.3",
+    "paddleocr[all]>=3.3.1",
+    "paddlepaddle>=3.2.1",
+    "python-dotenv>=1.2.1",
 ]
