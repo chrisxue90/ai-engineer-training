@@ -232,9 +232,9 @@ dependencies = [
     { name = "python-dateutil" },
     { name = "types-python-dateutil" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/2e/00/0f6e8fcdb23ea632c866620cc872729ff43ed91d284c866b515c6342b173/arrow-1.3.0.tar.gz", hash = "sha256:d4540617648cb5f895730f1ad8c82a65f2dad0166f57b75f3ca54759c4d67a85" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/2e/00/0f6e8fcdb23ea632c866620cc872729ff43ed91d284c866b515c6342b173/arrow-1.3.0.tar.gz", hash = "sha256:d4540617648cb5f895730f1ad8c82a65f2dad0166f57b75f3ca54759c4d67a85", size = 131960, upload-time = "2023-09-30T22:11:18.25Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/f8/ed/e97229a566617f2ae958a6b13e7cc0f585470eac730a73e9e82c32a3cdd2/arrow-1.3.0-py3-none-any.whl", hash = "sha256:c728b120ebc00eb84e01882a6f5e7927a53960aa990ce7dd2b10f39005a67f80" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/f8/ed/e97229a566617f2ae958a6b13e7cc0f585470eac730a73e9e82c32a3cdd2/arrow-1.3.0-py3-none-any.whl", hash = "sha256:c728b120ebc00eb84e01882a6f5e7927a53960aa990ce7dd2b10f39005a67f80", size = 66419, upload-time = "2023-09-30T22:11:16.072Z" },
 ]
 
 [[package]]
@@ -803,6 +803,8 @@ wheels = [
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/1f/8e/abdd3f14d735b2929290a018ecf133c901be4874b858dd1c604b9319f064/greenlet-3.2.4-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:2523e5246274f54fdadbce8494458a2ebdcdbc7b802318466ac5606d3cded1f8", size = 587684, upload-time = "2025-08-07T13:18:25.164Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/5d/65/deb2a69c3e5996439b0176f6651e0052542bb6c8f8ec2e3fba97c9768805/greenlet-3.2.4-cp311-cp311-musllinux_1_1_aarch64.whl", hash = "sha256:1987de92fec508535687fb807a5cea1560f6196285a4cde35c100b8cd632cc52", size = 1116647, upload-time = "2025-08-07T13:42:38.655Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/3f/cc/b07000438a29ac5cfb2194bfc128151d52f333cee74dd7dfe3fb733fc16c/greenlet-3.2.4-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:55e9c5affaa6775e2c6b67659f3a71684de4c549b3dd9afca3bc773533d284fa", size = 1142073, upload-time = "2025-08-07T13:18:21.737Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/67/24/28a5b2fa42d12b3d7e5614145f0bd89714c34c08be6aabe39c14dd52db34/greenlet-3.2.4-cp311-cp311-musllinux_1_2_aarch64.whl", hash = "sha256:c9c6de1940a7d828635fbd254d69db79e54619f165ee7ce32fda763a9cb6a58c", size = 1548385, upload-time = "2025-11-04T12:42:11.067Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/6a/05/03f2f0bdd0b0ff9a4f7b99333d57b53a7709c27723ec8123056b084e69cd/greenlet-3.2.4-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:03c5136e7be905045160b1b9fdca93dd6727b180feeafda6818e6496434ed8c5", size = 1613329, upload-time = "2025-11-04T12:42:12.928Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/d8/0f/30aef242fcab550b0b3520b8e3561156857c94288f0332a79928c31a52cf/greenlet-3.2.4-cp311-cp311-win_amd64.whl", hash = "sha256:9c40adce87eaa9ddb593ccb0fa6a07caf34015a29bf8d344811665b573138db9", size = 299100, upload-time = "2025-08-07T13:44:12.287Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/44/69/9b804adb5fd0671f367781560eb5eb586c4d495277c93bde4307b9e28068/greenlet-3.2.4-cp312-cp312-macosx_11_0_universal2.whl", hash = "sha256:3b67ca49f54cede0186854a008109d6ee71f66bd57bb36abd6d0a0267b540cdd", size = 274079, upload-time = "2025-08-07T13:15:45.033Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/46/e9/d2a80c99f19a153eff70bc451ab78615583b8dac0754cfb942223d2c1a0d/greenlet-3.2.4-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:ddf9164e7a5b08e9d22511526865780a576f19ddd00d62f8a665949327fde8bb", size = 640997, upload-time = "2025-08-07T13:42:56.234Z" },
@@ -812,6 +814,8 @@ wheels = [
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/19/0d/6660d55f7373b2ff8152401a83e02084956da23ae58cddbfb0b330978fe9/greenlet-3.2.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:3b3812d8d0c9579967815af437d96623f45c0f2ae5f04e366de62a12d83a8fb0", size = 607586, upload-time = "2025-08-07T13:18:28.544Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/8e/1a/c953fdedd22d81ee4629afbb38d2f9d71e37d23caace44775a3a969147d4/greenlet-3.2.4-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:abbf57b5a870d30c4675928c37278493044d7c14378350b3aa5d484fa65575f0", size = 1123281, upload-time = "2025-08-07T13:42:39.858Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/3f/c7/12381b18e21aef2c6bd3a636da1088b888b97b7a0362fac2e4de92405f97/greenlet-3.2.4-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:20fb936b4652b6e307b8f347665e2c615540d4b42b3b4c8a321d8286da7e520f", size = 1151142, upload-time = "2025-08-07T13:18:22.981Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/27/45/80935968b53cfd3f33cf99ea5f08227f2646e044568c9b1555b58ffd61c2/greenlet-3.2.4-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:ee7a6ec486883397d70eec05059353b8e83eca9168b9f3f9a361971e77e0bcd0", size = 1564846, upload-time = "2025-11-04T12:42:15.191Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/69/02/b7c30e5e04752cb4db6202a3858b149c0710e5453b71a3b2aec5d78a1aab/greenlet-3.2.4-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:326d234cbf337c9c3def0676412eb7040a35a768efc92504b947b3e9cfc7543d", size = 1633814, upload-time = "2025-11-04T12:42:17.175Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/e9/08/b0814846b79399e585f974bbeebf5580fbe59e258ea7be64d9dfb253c84f/greenlet-3.2.4-cp312-cp312-win_amd64.whl", hash = "sha256:a7d4e128405eea3814a12cc2605e0e6aedb4035bf32697f72deca74de4105e02", size = 299899, upload-time = "2025-08-07T13:38:53.448Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/49/e8/58c7f85958bda41dafea50497cbd59738c5c43dbbea5ee83d651234398f4/greenlet-3.2.4-cp313-cp313-macosx_11_0_universal2.whl", hash = "sha256:1a921e542453fe531144e91e1feedf12e07351b1cf6c9e8a3325ea600a715a31", size = 272814, upload-time = "2025-08-07T13:15:50.011Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/62/dd/b9f59862e9e257a16e4e610480cfffd29e3fae018a68c2332090b53aac3d/greenlet-3.2.4-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:cd3c8e693bff0fff6ba55f140bf390fa92c994083f838fece0f63be121334945", size = 641073, upload-time = "2025-08-07T13:42:57.23Z" },
@@ -821,6 +825,8 @@ wheels = [
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/ee/43/3cecdc0349359e1a527cbf2e3e28e5f8f06d3343aaf82ca13437a9aa290f/greenlet-3.2.4-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:23768528f2911bcd7e475210822ffb5254ed10d71f4028387e5a99b4c6699671", size = 610497, upload-time = "2025-08-07T13:18:31.636Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/b8/19/06b6cf5d604e2c382a6f31cafafd6f33d5dea706f4db7bdab184bad2b21d/greenlet-3.2.4-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:00fadb3fedccc447f517ee0d3fd8fe49eae949e1cd0f6a611818f4f6fb7dc83b", size = 1121662, upload-time = "2025-08-07T13:42:41.117Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/a2/15/0d5e4e1a66fab130d98168fe984c509249c833c1a3c16806b90f253ce7b9/greenlet-3.2.4-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:d25c5091190f2dc0eaa3f950252122edbbadbb682aa7b1ef2f8af0f8c0afefae", size = 1149210, upload-time = "2025-08-07T13:18:24.072Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/1c/53/f9c440463b3057485b8594d7a638bed53ba531165ef0ca0e6c364b5cc807/greenlet-3.2.4-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:6e343822feb58ac4d0a1211bd9399de2b3a04963ddeec21530fc426cc121f19b", size = 1564759, upload-time = "2025-11-04T12:42:19.395Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/47/e4/3bb4240abdd0a8d23f4f88adec746a3099f0d86bfedb623f063b2e3b4df0/greenlet-3.2.4-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:ca7f6f1f2649b89ce02f6f229d7c19f680a6238af656f61e0115b24857917929", size = 1634288, upload-time = "2025-11-04T12:42:21.174Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/0b/55/2321e43595e6801e105fcfdee02b34c0f996eb71e6ddffca6b10b7e1d771/greenlet-3.2.4-cp313-cp313-win_amd64.whl", hash = "sha256:554b03b6e73aaabec3745364d6239e9e012d64c68ccd0b8430c64ccc14939a8b", size = 299685, upload-time = "2025-08-07T13:24:38.824Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/22/5c/85273fd7cc388285632b0498dbbab97596e04b154933dfe0f3e68156c68c/greenlet-3.2.4-cp314-cp314-macosx_11_0_universal2.whl", hash = "sha256:49a30d5fda2507ae77be16479bdb62a660fa51b1eb4928b524975b3bde77b3c0", size = 273586, upload-time = "2025-08-07T13:16:08.004Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/d1/75/10aeeaa3da9332c2e761e4c50d4c3556c21113ee3f0afa2cf5769946f7a3/greenlet-3.2.4-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:299fd615cd8fc86267b47597123e3f43ad79c9d8a22bebdce535e53550763e2f", size = 686346, upload-time = "2025-08-07T13:42:59.944Z" },
@@ -828,6 +834,8 @@ wheels = [
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/dc/8b/29aae55436521f1d6f8ff4e12fb676f3400de7fcf27fccd1d4d17fd8fecd/greenlet-3.2.4-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.whl", hash = "sha256:b4a1870c51720687af7fa3e7cda6d08d801dae660f75a76f3845b642b4da6ee1", size = 694659, upload-time = "2025-08-07T13:53:17.759Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/92/2e/ea25914b1ebfde93b6fc4ff46d6864564fba59024e928bdc7de475affc25/greenlet-3.2.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:061dc4cf2c34852b052a8620d40f36324554bc192be474b9e9770e8c042fd735", size = 695355, upload-time = "2025-08-07T13:18:34.517Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/72/60/fc56c62046ec17f6b0d3060564562c64c862948c9d4bc8aa807cf5bd74f4/greenlet-3.2.4-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:44358b9bf66c8576a9f57a590d5f5d6e72fa4228b763d0e43fee6d3b06d3a337", size = 657512, upload-time = "2025-08-07T13:18:33.969Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/23/6e/74407aed965a4ab6ddd93a7ded3180b730d281c77b765788419484cdfeef/greenlet-3.2.4-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:2917bdf657f5859fbf3386b12d68ede4cf1f04c90c3a6bc1f013dd68a22e2269", size = 1612508, upload-time = "2025-11-04T12:42:23.427Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/0d/da/343cd760ab2f92bac1845ca07ee3faea9fe52bee65f7bcb19f16ad7de08b/greenlet-3.2.4-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:015d48959d4add5d6c9f6c5210ee3803a830dce46356e3bc326d6776bde54681", size = 1680760, upload-time = "2025-11-04T12:42:25.341Z" },
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/e3/a5/6ddab2b4c112be95601c13428db1d8b6608a8b6039816f2ba09c346c08fc/greenlet-3.2.4-cp314-cp314-win_amd64.whl", hash = "sha256:e37ab26028f12dbb0ff65f29a8d3d44a765c61e729647bf2ddfbbed621726f01", size = 303425, upload-time = "2025-08-07T13:32:27.59Z" },
 ]
 
@@ -1559,7 +1567,7 @@ wheels = [
 
 [[package]]
 name = "llama-index"
-version = "0.13.3"
+version = "0.14.8"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "llama-index-cli" },
@@ -1571,28 +1579,28 @@ dependencies = [
     { name = "llama-index-readers-llama-parse" },
     { name = "nltk" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/ee/21/eea15746c34cdf5cbae1685a6f3ee48c3bbcd92a113f62bb33ad5526aaf6/llama_index-0.13.3.tar.gz", hash = "sha256:2a0dd99aae2f9e736b02463134e4c605200d5fc1f1f4b0fb1ca9fc52905f1f4d", size = 8030, upload-time = "2025-08-22T20:07:12.803Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/ce/ff/f230bd1b27f77a10de0d4c6a4942b31f5947fc3e170b6c49e3cc2c8a4352/llama_index-0.14.8.tar.gz", hash = "sha256:b4f5fcf5376e10acf691a2c8bdd019df189f1635b831bbc35894ecf1042e3743", size = 8462, upload-time = "2025-11-10T22:18:37.25Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/32/c2/c872d9dc9d906e6c0c6ff00b7cf885a755e29cb849bad9707370950702ec/llama_index-0.13.3-py3-none-any.whl", hash = "sha256:492ab1a8bac02f53cd804f15c82ccbd6118ad5a3c61dba279a87f1d480a624d3", size = 7030, upload-time = "2025-08-22T20:07:10.934Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/78/d8/0da07894f6388206fdadcd0ef8655b45d31176fb5052bcce9fede5d3cb63/llama_index-0.14.8-py3-none-any.whl", hash = "sha256:26755032aefb2ca355c5e263eaa3d0c5ed955afa9e95781340c9068916826397", size = 7447, upload-time = "2025-11-10T22:18:35.554Z" },
 ]
 
 [[package]]
 name = "llama-index-cli"
-version = "0.5.0"
+version = "0.5.3"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "llama-index-core" },
     { name = "llama-index-embeddings-openai" },
     { name = "llama-index-llms-openai" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/22/5e/549765c3f1afba26a1462ffb442ffaa674dae00710780a35900e0c16b3a3/llama_index_cli-0.5.0.tar.gz", hash = "sha256:2eb9426232e8d89ffdf0fa6784ff8da09449d920d71d0fcc81d07be93cf9369f", size = 24799, upload-time = "2025-07-30T20:02:30.774Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/67/84/41e820efffbe327c38228d3b37fe42512a37e0c3ee4ff6bf97a394e9577a/llama_index_cli-0.5.3.tar.gz", hash = "sha256:ebaf39e785efbfa8d50d837f60cb0f95125c04bf73ed1f92092a2a5f506172f8", size = 24821, upload-time = "2025-09-29T18:03:10.798Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/b7/97/61044f804328a2e12a6609c442fb69674545592da3e89bb5144f713861ab/llama_index_cli-0.5.0-py3-none-any.whl", hash = "sha256:e331ca98005c370bfe58800fa5eed8b10061d0b9c656b84a1f5f6168733a2a7b", size = 28159, upload-time = "2025-07-30T20:02:29.992Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/54/81/b7b3778aa8662913760fbbee77578daf4407aeaa677ccbf0125c4cfa2e67/llama_index_cli-0.5.3-py3-none-any.whl", hash = "sha256:7deb1e953e582bd885443881ce8bd6ab2817b594fef00079dce9993c47d990f7", size = 28173, upload-time = "2025-09-29T18:03:10.024Z" },
 ]
 
 [[package]]
 name = "llama-index-core"
-version = "0.13.3"
+version = "0.14.8"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -1623,49 +1631,49 @@ dependencies = [
     { name = "typing-inspect" },
     { name = "wrapt" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/28/89/2954d6150835c33bad5300e405f8087fbc0a55fd885dccf885f7263d3500/llama_index_core-0.13.3.tar.gz", hash = "sha256:bd7fffa7e6793b2c76fe55eb9e9336250b54e94fdee3fd017b354dbb0d6309a1", size = 7231354, upload-time = "2025-08-22T15:47:11.4Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/b0/ee/3f68cfac0eba7085aaeede5d179d31097d8351cbeae333859aabd0e20ed7/llama_index_core-0.14.8.tar.gz", hash = "sha256:8865a8546746b8c5f0684085ccfcf900aeb04862ebfe2077ad522374cf71e58e", size = 11579082, upload-time = "2025-11-10T22:17:57.865Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/c2/70/1ed5e7c7b5b95b600b1c4d967ab74b27ce377af796999dc2f9bd42d3169d/llama_index_core-0.13.3-py3-none-any.whl", hash = "sha256:0d87f817f6f306ffbe56a4bb8c85f574d5fe5142e9f0e2793c93a33eafed54c5", size = 7574514, upload-time = "2025-08-22T15:47:04.205Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/27/61/bdc7d7e818f07ae8208786581608043c95a510f3f0906d7f6f53a69a1712/llama_index_core-0.14.8-py3-none-any.whl", hash = "sha256:e54046f09507aeb2fad51d8e9686dc0fa41c77d3925892e55c3756ca31f1c0c3", size = 11920547, upload-time = "2025-11-10T22:17:54.395Z" },
 ]
 
 [[package]]
 name = "llama-index-embeddings-dashscope"
-version = "0.4.0"
+version = "0.4.1"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "dashscope" },
     { name = "llama-index-core" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/a8/18/a0f765918b50185e3b53ad6217f61fbfdc097f2ba834daf0a4d465254550/llama_index_embeddings_dashscope-0.4.0.tar.gz", hash = "sha256:ee75f816e6bd8a7f874a6eeb82db2c9056ef3fa9852bdd4f6dc20ca40553667e", size = 5161, upload-time = "2025-07-30T23:06:18.714Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/fb/8b/2423e036164ebd4376685f3108c64814ed8b4f3f76631e84f2b20677c820/llama_index_embeddings_dashscope-0.4.1.tar.gz", hash = "sha256:88c131ac5e77ff949401685dd9d8bfe07e75a895d0886827a4c4d4b6514f36aa", size = 5162, upload-time = "2025-09-08T20:15:50.145Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/1e/4f/9cebffa649351619f063e90d2c74adfaee8297031349b04bc67ac0599b60/llama_index_embeddings_dashscope-0.4.0-py3-none-any.whl", hash = "sha256:b867f8aad8a035974ca3d8bc8a753191c30886cf84e5b2cf76a68005d4f11ec7", size = 4825, upload-time = "2025-07-30T23:06:17.8Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/bc/a9/d48e567e32e2f351bad8aa00737505be7f3c59464e14b1eaa90eb7e7d59b/llama_index_embeddings_dashscope-0.4.1-py3-none-any.whl", hash = "sha256:3b2b5ce5345033edb3757dc98ae08c64bf72611f00eb0c547e2829c8ef7dfe66", size = 4826, upload-time = "2025-09-08T20:15:49.475Z" },
 ]
 
 [[package]]
 name = "llama-index-embeddings-openai"
-version = "0.5.0"
+version = "0.5.1"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "llama-index-core" },
     { name = "openai" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/26/6a/80ed46993c6827786cdec4f6b553f3f4e5fc8741c31e8903c694833d24bf/llama_index_embeddings_openai-0.5.0.tar.gz", hash = "sha256:ac587839a111089ea8a6255f9214016d7a813b383bbbbf9207799be1100758eb", size = 7019, upload-time = "2025-07-30T19:55:05.699Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/10/36/90336d054a5061a3f5bc17ac2c18ef63d9d84c55c14d557de484e811ea4d/llama_index_embeddings_openai-0.5.1.tar.gz", hash = "sha256:1c89867a48b0d0daa3d2d44f5e76b394b2b2ef9935932daf921b9e77939ccda8", size = 7020, upload-time = "2025-09-08T20:17:44.681Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/01/21/65f13a385292d7d573dfde472da7daff5f779345d60c5c3e274142ec8ba2/llama_index_embeddings_openai-0.5.0-py3-none-any.whl", hash = "sha256:d817edb22e3ff475e8cd1833faf1147028986bc1d688f7894ef947558864b728", size = 7009, upload-time = "2025-07-30T19:55:04.86Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/23/4a/8ab11026cf8deff8f555aa73919be0bac48332683111e5fc4290f352dc50/llama_index_embeddings_openai-0.5.1-py3-none-any.whl", hash = "sha256:a2fcda3398bbd987b5ce3f02367caee8e84a56b930fdf43cc1d059aa9fd20ca5", size = 7011, upload-time = "2025-09-08T20:17:44.015Z" },
 ]
 
 [[package]]
 name = "llama-index-indices-managed-llama-cloud"
-version = "0.9.2"
+version = "0.9.4"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "deprecated" },
     { name = "llama-cloud" },
     { name = "llama-index-core" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/8f/5c/bd229ed367fa26ea9ddb18972bc84ac021014bf741de454e8b0534bd16fd/llama_index_indices_managed_llama_cloud-0.9.2.tar.gz", hash = "sha256:19af55da8f1218d80390fcbe5cdfef6100acc755b0177a4077a924c31a2fb345", size = 15060, upload-time = "2025-08-17T22:02:49.885Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/61/4a/79044fcb3209583d1ffe0c2a7c19dddfb657a03faeb9fe0cf5a74027e646/llama_index_indices_managed_llama_cloud-0.9.4.tar.gz", hash = "sha256:b5e00752ab30564abf19c57595a2107f5697c3b03b085817b4fca84a38ebbd59", size = 15146, upload-time = "2025-09-08T20:29:58.673Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/e6/de/4ec2e278866d6d308fc3acaee223fcf580d787637e04c574a3b5fde6259e/llama_index_indices_managed_llama_cloud-0.9.2-py3-none-any.whl", hash = "sha256:d139602d1c268ae4ce2003838e857c5ef5527fb1adc78add2d9ce18fef4b4bfa", size = 16904, upload-time = "2025-08-17T22:02:48.707Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/a6/6a/0e33245df06afc9766c46a1fe92687be8a09da5d0d0128bc08d84a9f5efa/llama_index_indices_managed_llama_cloud-0.9.4-py3-none-any.whl", hash = "sha256:535a08811046803ca6ab7f8e9d510e926aa5306608b02201ad3d9d21701383bc", size = 17005, upload-time = "2025-09-08T20:29:57.876Z" },
 ]
 
 [[package]]
@@ -1683,47 +1691,47 @@ wheels = [
 
 [[package]]
 name = "llama-index-llms-dashscope"
-version = "0.5.0"
+version = "0.5.1"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "dashscope" },
     { name = "llama-index-core" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/25/da/02622175542cac4311dc8d00db42ddef268256224acf5317be0083dfd562/llama_index_llms_dashscope-0.5.0.tar.gz", hash = "sha256:4b0064c70cc56c6a3593b78de25e25a3d974eab5936e852ae321048ae99829f8", size = 8040, upload-time = "2025-07-30T21:06:17.176Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/94/03/7485da3de71dd5f58edb8c35153d5a60c45f6f64c0181157cc60ded281ef/llama_index_llms_dashscope-0.5.1.tar.gz", hash = "sha256:e3a2c4646da918dafa83ab8a146db0dd0d193da0aaf5d3e6322dd08150bd2efe", size = 8040, upload-time = "2025-09-08T20:31:42.835Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/30/4e/c951d7007eb186d1a2574956b7a4a5da6d32ae9b0bab22301a695c50ee83/llama_index_llms_dashscope-0.5.0-py3-none-any.whl", hash = "sha256:304df27af36bf0017e2e7220b37ce27e2766dc1fe954110f812cc83c398d0c5e", size = 8224, upload-time = "2025-07-30T21:06:16.474Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/e3/6d/44194ee7a1f70be5fca6e74e837243bcaa5eaffd69607740839e567fa78b/llama_index_llms_dashscope-0.5.1-py3-none-any.whl", hash = "sha256:4cc621234475b9e4d182653d5dfbe35b3233b4a786154b8ec2ce190c78739313", size = 8225, upload-time = "2025-09-08T20:31:42.137Z" },
 ]
 
 [[package]]
 name = "llama-index-llms-openai"
-version = "0.5.4"
+version = "0.6.9"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "llama-index-core" },
     { name = "openai" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/20/59/4c414d79a21189d9db6de58ecbc297cd0f5ea121803b836bd134c67dd7a3/llama_index_llms_openai-0.5.4.tar.gz", hash = "sha256:9e36b6d2fc5f056b00ee655901b3bb7e7060b23f7b19439889fb78d696340f54", size = 24230, upload-time = "2025-08-16T22:41:17.408Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/2b/6a/3b0225298b10ace4b5c08f564dfc5ddcdbd1792b027097628c120a00d0af/llama_index_llms_openai-0.6.9.tar.gz", hash = "sha256:4c8c91a5e5b0e59b44ecd8fe43156e93c6abf1c9ca8e1e4ad3e4834c84f51199", size = 25535, upload-time = "2025-11-14T01:05:12.882Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/ad/62/aec65450b8d7ba723fa557884ac34d94b2b8f3876a54249c05d240a2be6c/llama_index_llms_openai-0.5.4-py3-none-any.whl", hash = "sha256:8d42fbfa56b5f281ad0dfcb2915916c188b5876625f9f8d27016b7dc4366cc24", size = 25357, upload-time = "2025-08-16T22:41:16.472Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/76/74/103b4f967f589f92e43b55f4dcfa5ad3544a475ff9103e15dcfc57e3c28e/llama_index_llms_openai-0.6.9-py3-none-any.whl", hash = "sha256:02eec6ef46ac67be76607ea28c6fbe4c95a6713adc2da629e3682a6b3802cf38", size = 26532, upload-time = "2025-11-14T01:05:11.603Z" },
 ]
 
 [[package]]
 name = "llama-index-llms-openai-like"
-version = "0.5.0"
+version = "0.5.3"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "llama-index-core" },
     { name = "llama-index-llms-openai" },
     { name = "transformers" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/72/10/562c30b4f6b0fb6bc197b4a4111ee6efd273338bc67da45ff944534229b6/llama_index_llms_openai_like-0.5.0.tar.gz", hash = "sha256:9457bedeb63b6954e150fc67b42e446e3753a714aa903a0076252fb7c20dffee", size = 4896, upload-time = "2025-07-30T21:26:10.481Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/9b/fd/aed635d298380cfdc84a4e475a8367d8fcdd4677cd8914de2f495edea28d/llama_index_llms_openai_like-0.5.3.tar.gz", hash = "sha256:84bdfc88bb5d9ea806bdd1be4b4378357781c0637c78c548242aac857f165090", size = 4993, upload-time = "2025-09-28T23:48:26.659Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/32/6d/9de82f1648f1056bfa6660d9ba3dd6883fbb28811fafd294df5509891191/llama_index_llms_openai_like-0.5.0-py3-none-any.whl", hash = "sha256:6bc4a749b70f659f9bb5ed4bd412a4089353eb58d28e8057db67b29d73436cc6", size = 4596, upload-time = "2025-07-30T21:26:08.136Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/aa/22/3d15a3f0f2c4befecb8e7a81a4a0bbd3121f567b22b9ac34817ecf15a155/llama_index_llms_openai_like-0.5.3-py3-none-any.whl", hash = "sha256:9ef2374916427e1a21db0ea5f624056fb323e13308c6722b3de0384dfecd467b", size = 4689, upload-time = "2025-09-28T23:48:25.557Z" },
 ]
 
 [[package]]
 name = "llama-index-readers-file"
-version = "0.5.2"
+version = "0.5.4"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -1733,63 +1741,63 @@ dependencies = [
     { name = "pypdf" },
     { name = "striprtf" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/e7/9c/d86710937b3d14c51bd02fc67f1f4babd77ac3710817fc230778020cd102/llama_index_readers_file-0.5.2.tar.gz", hash = "sha256:049d971ac4c936edbf4832915ba7128cfee8f5ead435266792b71edd87f5305c", size = 32517, upload-time = "2025-08-16T22:25:52.86Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/01/d9/c67ad2b9cba8dacf1d4a55fe5432357b6eceaecfb096a0de5c1cbd959b98/llama_index_readers_file-0.5.4.tar.gz", hash = "sha256:5e766f32597622e66529464101914548ad683770a0a5d2bdc9ee84eb3a110332", size = 32565, upload-time = "2025-09-08T20:39:40.287Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/96/b9/8d55b916901df08b55c0e7994363fcea41c02b7fbe8ccba07e4c2ad57f9c/llama_index_readers_file-0.5.2-py3-none-any.whl", hash = "sha256:c85e20022f3da3f635d38401863243c557d4e9ad6872acaafc9281e41a0c9460", size = 51780, upload-time = "2025-08-16T22:25:51.635Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/ea/e3/76d72a7281b9c88d488908731c9034e1ee1a2cad5aa1dead76b051eca989/llama_index_readers_file-0.5.4-py3-none-any.whl", hash = "sha256:135be5ddda66c5b35883911918b2d99f67a2ab010d180af5630c872ea9509d45", size = 51827, upload-time = "2025-09-08T20:39:39.408Z" },
 ]
 
 [[package]]
 name = "llama-index-readers-llama-parse"
-version = "0.5.0"
+version = "0.5.1"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "llama-index-core" },
     { name = "llama-parse" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/be/77/6ca0b2fcdf2ad6c5a36e4374b3380a1e65d216a07f874f27f341c69e2c55/llama_index_readers_llama_parse-0.5.0.tar.gz", hash = "sha256:891b21fb63fe1fe722e23cfa263a74d9a7354e5d8d7a01f2d4040a52f8d8feef", size = 3858, upload-time = "2025-07-30T21:11:30.906Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/b3/77/5bfaab20e6ec8428dbf2352e18be550c957602723d69383908176b5686cd/llama_index_readers_llama_parse-0.5.1.tar.gz", hash = "sha256:2b78b73faa933e30e6c69df351e4e9f36dfe2ae142e2ab3969ddd2ac48930e37", size = 3858, upload-time = "2025-09-08T20:41:29.201Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/66/df/e0f96794fcc1edb2aaef8c3d1a862940c9f27ea39f179cbc2d82b061f277/llama_index_readers_llama_parse-0.5.0-py3-none-any.whl", hash = "sha256:e63ebf2248c4a726b8a1f7b029c90383d82cdc142942b54dbf287d1f3aee6d75", size = 3201, upload-time = "2025-07-30T21:11:29.885Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/68/81/52410c7245dcbf1a54756a9ce3892cdd167ec0b884d696de1304ca3f452e/llama_index_readers_llama_parse-0.5.1-py3-none-any.whl", hash = "sha256:0d41450ed29b0c49c024e206ef6c8e662b1854e77a1c5faefed3b958be54f880", size = 3203, upload-time = "2025-09-08T20:41:28.438Z" },
 ]
 
 [[package]]
 name = "llama-index-readers-smart-pdf-loader"
-version = "0.4.0"
+version = "0.4.1"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "llama-index-core" },
     { name = "llmsherpa" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/b2/90/8b9a3f65fb58e03401874a85aa3b91e8d503ef1399b47032285d703b7834/llama_index_readers_smart_pdf_loader-0.4.0.tar.gz", hash = "sha256:1b7de8d4a6052be157dab5c4fb27732a4e47ae6fdcdc6525b336d9aa613fc893", size = 4297, upload-time = "2025-07-30T21:12:26.332Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/44/0b/7a28d0bc26cee56ea43565d4a7cedef09d5bd267616c2faab8ddb34c41ca/llama_index_readers_smart_pdf_loader-0.4.1.tar.gz", hash = "sha256:0afc502a8bea3455d013b9289f3e88ff72899d1aefa56b152f330ba34cface1d", size = 4295, upload-time = "2025-09-08T20:42:47.03Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/56/6a/805ef4847c35a15adcbe629410f00d1815b49f9dbff196a54ee42bf065fa/llama_index_readers_smart_pdf_loader-0.4.0-py3-none-any.whl", hash = "sha256:23c0fd7c5f18341189f4c026f482b1c327fb3756cd6cd41a018ee4e912f6c911", size = 4004, upload-time = "2025-07-30T21:12:25.625Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/b8/dd/25218e8a41c3174c7f2dbd8af47a121d55b503adef9b1725636e30b1ca4a/llama_index_readers_smart_pdf_loader-0.4.1-py3-none-any.whl", hash = "sha256:c451ff0e1b2e12ccaab8d04c7c458d9c77d8ea5adc7d984a5a5560da4c53ea69", size = 4005, upload-time = "2025-09-08T20:42:46.242Z" },
 ]
 
 [[package]]
 name = "llama-index-vector-stores-elasticsearch"
-version = "0.5.0"
+version = "0.5.1"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "aiohttp" },
     { name = "elasticsearch" },
     { name = "llama-index-core" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/cf/3d/7871ee7b40b15265b353fbfaeaeef5cbedb6af9bc66da7dda78a0b4d5ccf/llama_index_vector_stores_elasticsearch-0.5.0.tar.gz", hash = "sha256:f69bb5133659054cfe74ff1b03ac18aa5d628ed8d7ea9c5a0c6b128b61a323f2", size = 8242, upload-time = "2025-07-30T21:06:37.182Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/09/e8/55642cac8306287cd9ab283fd35936d20b0f5e7ab1b74d2219693878c971/llama_index_vector_stores_elasticsearch-0.5.1.tar.gz", hash = "sha256:a89291160917a2ba5089aa1157c493d0b9c7e455e975945a6b92f4a1f4bd9251", size = 8243, upload-time = "2025-09-08T20:47:52.966Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/58/20/f5243df16478a2202da677fa56b2b93074a589fcab9192c0e52bb747e739/llama_index_vector_stores_elasticsearch-0.5.0-py3-none-any.whl", hash = "sha256:133c9262e99d531c7041b33414608561bb79f14c257c21d7c2e651822922f834", size = 8638, upload-time = "2025-07-30T21:06:35.819Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/21/15/7fb6567a41bad87b0e5f1b98413f63e4757bbb9b1633587cef7b51b1747a/llama_index_vector_stores_elasticsearch-0.5.1-py3-none-any.whl", hash = "sha256:ee529d6437b89e0cba14e5909bbc4df90c7e9a6efe3b079a6b1a7ff7eeaa5071", size = 8638, upload-time = "2025-09-08T20:47:52.17Z" },
 ]
 
 [[package]]
 name = "llama-index-workflows"
-version = "1.3.0"
+version = "2.11.4"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "llama-index-instrumentation" },
     { name = "pydantic" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/00/dc/54fd5dec0ad3c65f3e8a520db7a3024141b71cd41660d0baca3cd6b18707/llama_index_workflows-1.3.0.tar.gz", hash = "sha256:9c1688e237efad384f16485af71c6f9456a2eb6d85bf61ff49e5717f10ff286d", size = 1040839, upload-time = "2025-08-07T09:11:00.307Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/32/62/0d14890bcf98f3852b37560bd2ebaf346cdcf0ad45a5c8797edcff9124ee/llama_index_workflows-2.11.4.tar.gz", hash = "sha256:8a92e21437c38ff11b1771d1953e1abcc49430d302539d017e31b6b988737ddc", size = 70741, upload-time = "2025-11-21T22:37:19.258Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/3b/cf/0c50bc6e5c4fb7913f5682a0d26a60b976533dd8a87a5dbd84f617c6f1ab/llama_index_workflows-1.3.0-py3-none-any.whl", hash = "sha256:328cc25d92b014ef527f105a2f2088c0924fff0494e53d93decb951f14fbfe47", size = 42527, upload-time = "2025-08-07T09:10:59.155Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/55/37/c01af67e27d960da6c8a953a4bc11142a5fda1bd13abd2aded6d39ccab25/llama_index_workflows-2.11.4-py3-none-any.whl", hash = "sha256:b4cf29c0c40005df6a79cc478cc439d298e2077437e680e6afd142bb98cf1abe", size = 91984, upload-time = "2025-11-21T22:37:18.37Z" },
 ]
 
 [[package]]
@@ -2256,7 +2264,7 @@ wheels = [
 
 [[package]]
 name = "openai"
-version = "1.102.0"
+version = "1.109.1"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "anyio" },
@@ -2268,9 +2276,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/07/55/da5598ed5c6bdd9939633854049cddc5cbac0da938dfcfcb3c6b119c16c0/openai-1.102.0.tar.gz", hash = "sha256:2e0153bcd64a6523071e90211cbfca1f2bbc5ceedd0993ba932a5869f93b7fc9", size = 519027, upload-time = "2025-08-26T20:50:29.397Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/c6/a1/a303104dc55fc546a3f6914c842d3da471c64eec92043aef8f652eb6c524/openai-1.109.1.tar.gz", hash = "sha256:d173ed8dbca665892a6db099b4a2dfac624f94d20a93f46eb0b56aae940ed869", size = 564133, upload-time = "2025-09-24T13:00:53.075Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/bd/0d/c9e7016d82c53c5b5e23e2bad36daebb8921ed44f69c0a985c6529a35106/openai-1.102.0-py3-none-any.whl", hash = "sha256:d751a7e95e222b5325306362ad02a7aa96e1fab3ed05b5888ce1c7ca63451345", size = 812015, upload-time = "2025-08-26T20:50:27.219Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/1d/2a/7dd3d207ec669cacc1f186fd856a0f61dbc255d24f6fdc1a6715d6051b0f/openai-1.109.1-py3-none-any.whl", hash = "sha256:6bcaf57086cf59159b8e27447e4e7dd019db5d29a438072fbd49c290c7e65315", size = 948627, upload-time = "2025-09-24T13:00:50.754Z" },
 ]
 
 [[package]]
@@ -3757,6 +3765,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "dashscope" },
     { name = "datasets" },
+    { name = "ipykernel" },
     { name = "ipywidgets" },
     { name = "jupyter" },
     { name = "langchain-community" },
@@ -3769,6 +3778,7 @@ dependencies = [
     { name = "llmsherpa" },
     { name = "neo4j" },
     { name = "neo4j-graphrag" },
+    { name = "notebook" },
     { name = "numpy" },
     { name = "python-dotenv" },
     { name = "ragas" },
@@ -3778,10 +3788,11 @@ dependencies = [
 requires-dist = [
     { name = "dashscope" },
     { name = "datasets" },
+    { name = "ipykernel", specifier = ">=6.30.1" },
     { name = "ipywidgets" },
     { name = "jupyter" },
     { name = "langchain-community" },
-    { name = "llama-index" },
+    { name = "llama-index", specifier = ">0.14.0" },
     { name = "llama-index-embeddings-dashscope" },
     { name = "llama-index-llms-dashscope" },
     { name = "llama-index-llms-openai-like" },
@@ -3790,6 +3801,7 @@ requires-dist = [
     { name = "llmsherpa" },
     { name = "neo4j" },
     { name = "neo4j-graphrag" },
+    { name = "notebook", specifier = ">=7.4.5" },
     { name = "numpy" },
     { name = "python-dotenv" },
     { name = "ragas" },

@@ -8,6 +8,8 @@ from datasets import Dataset
 from ragas import evaluate
 from ragas.metrics import answer_correctness
 from ragas.metrics import context_recall, context_precision
+from dotenv import load_dotenv
+load_dotenv()
 
 data_samples = {
     'question': [

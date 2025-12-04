@@ -3,6 +3,9 @@ from llama_index.core import Settings
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from llama_index.llms.openai_like import OpenAILike
 from llama_index.embeddings.dashscope import DashScopeEmbedding, DashScopeTextEmbeddingModels
+from pathlib import Path
+from dotenv import load_dotenv
+load_dotenv()
 
 # 增加调试日志
 # import logging
@@ -25,7 +28,8 @@ Settings.embed_model = DashScopeEmbedding(
     embed_input_length=8192
 )
 
-documents = SimpleDirectoryReader("data").load_data()
+dir_path = Path(__file__).parent / "data"
+documents = SimpleDirectoryReader(str(dir_path)).load_data()
 index = VectorStoreIndex.from_documents(documents)
 
 # 创建检索器

@@ -7,7 +7,8 @@ from langchain_community.embeddings import DashScopeEmbeddings
 from datasets import Dataset
 from ragas import evaluate
 from ragas.metrics import answer_correctness
-
+from dotenv import load_dotenv
+load_dotenv()
 data_samples = {
     'question': [
         '杭州最值得去的景点有哪些？',
